@@ -1,0 +1,29 @@
+{
+    "ui": {
+        "window_size": [1200, 800],
+        "theme": "default",
+        "font_size": 10,
+        "show_grid": true
+    },
+    "plot": {
+        "line_width": 1.0,
+        "grid_alpha": 0.3,
+        "pick_line_width": 2.0,
+        "background_color": "#FFFFFF"
+    },
+    "processing": {
+        "auto_pick_threshold": 3.0,
+        "min_snr": 2.0,
+        "max_offset": 5.0
+    },
+    "paths": {
+        "backup_dir": "~/.p_wave_picker/backup",
+        "export_dir": "~/.p_wave_picker/export"
+    },
+    "filters": {
+        "enable": true,
+        "type": "带通",
+        "freq_min": 1.0,
+        "freq_max": 10.0
+    }
+} 

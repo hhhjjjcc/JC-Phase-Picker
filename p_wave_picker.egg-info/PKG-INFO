@@ -1,0 +1,229 @@
+Metadata-Version: 2.1
+Name: p_wave_picker
+Version: 0.1.0
+Summary: P波初至震相拾取系统
+Home-page: https://github.com/xxx/p_wave_picker
+Author: XXX
+Author-email: xxx@example.com
+Project-URL: Documentation, https://github.com/xxx/p_wave_picker/docs
+Project-URL: Source, https://github.com/xxx/p_wave_picker
+Project-URL: Tracker, https://github.com/xxx/p_wave_picker/issues
+Keywords: seismology,phase picking,P-wave
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: obspy>=1.4.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: pandas>=1.3.0
+Requires-Dist: scipy>=1.7.0
+
+# P波初至震相拾取系统
+
+## 项目概述
+P波初至震相拾取系统是一个用于地震数据处理的专业工具，主要功能是从MiniSEED格式的地震波形数据中拾取P波初至震相。
+
+## 主要功能
+- 支持MiniSEED文件格式的读取和处理
+- 交互式波形显示和P波初至拾取
+- 批量处理功能
+- 拾取结果保存和导出
+- 撤销/重做操作
+- 自动拾取算法
+
+## 系统要求
+- Python 3.7+
+- 操作系统：Windows/Linux/macOS
+
+## 安装说明
+1. 克隆项目：
+```bash
+git clone [项目地址]
+cd p-wave-picker
+```
+
+2. 创建并激活环境：
+```bash
+conda create -n p_wave_picker python=3.8
+conda activate p_wave_picker
+
+# 安装主要依赖
+conda install -c conda-forge obspy matplotlib numpy pandas scipy tk
+
+# 安装其他可能需要的依赖
+conda install -c conda-forge setuptools
+```
+
+3. 安装依赖：
+```bash
+pip install -r requirements.txt
+```
+
+## 使用方法
+1. 启动程序：
+```bash
+python main.py
+```
+
+2. 基本操作：
+- 打开文件：点击"文件" → "打开文件"或按Ctrl+O
+- 拾取P波：在波形图上用鼠标左键点击P波初至位置
+- 保存结果：点击"文件" → "保存"或按Ctrl+S
+- 撤销操作：按Ctrl+Z
+- 重做操作：按Ctrl+Y
+
+## 项目结构
+```
+p_wave_picker/
+├── main.py                 # 主程序入口
+├── requirements.txt        # 依赖包列表
+├── config/                # 配置文件
+├── core/                  # 核心功能模块
+├── gui/                   # 图形界面模块
+├── utils/                 # 工具函数
+├── tests/                 # 测试文件
+└── examples/              # 示例文件
+```
+
+## 开发团队
+- 地震数据处理团队
+
+## 许可证
+MIT License 
+
+## 快速入门教程
+
+### 1. 环境配置
+
+1. 创建并激活conda环境：
+```bash
+conda create -n p_wave_picker python=3.8
+conda activate p_wave_picker
+```
+
+2. 安装依赖：
+```bash
+conda install -c conda-forge obspy matplotlib numpy pandas scipy tk
+```
+
+3. 运行程序：
+```bash
+python main.py
+```
+
+### 2. 基本操作流程
+
+#### 2.1 加载数据
+
+1. **单个文件加载**：
+   - 点击工具栏的"打开"按钮
+   - 或使用快捷键 `Ctrl+O`
+   - 或从菜单栏选择"文件" -> "打开文件"
+   - 选择MiniSEED格式的地震波形文件
+
+2. **批量加载**：
+   - 点击"添加目录"按钮
+   - 或从菜单栏选择"文件" -> "打开目录"
+   - 选择包含多个MiniSEED文件的文件夹
+
+#### 2.2 波形显示与操作
+
+1. **基本查看**：
+   - 波形显示在主窗口的右侧面板
+   - 左侧面板显示已加载的文件列表
+
+2. **波形操作**：
+   - 缩放：使用鼠标滚轮或工具栏的"放大"/"缩小"按钮
+   - 平移：按住鼠标左键拖动
+   - 重置视图：点击工具栏的"重置视图"按钮
+
+#### 2.3 拾取操作
+
+1. **手动拾取**：
+   - 在波形上点击要拾取的位置
+   - 使用下拉菜单选择拾取质量（A/B/C）
+   - 或使用快捷键：
+     - `A`：设置为A级质量
+     - `B`：设置为B级质量
+     - `C`：设置为C级质量
+
+2. **自动拾取**：
+   - 点击工具栏的"自动拾取"按钮
+   - 或使用快捷键 `Ctrl+A`
+   - 程序会自动检测P波初至
+
+3. **编辑拾取**：
+   - 撤销：点击"撤销"按钮或使用 `Ctrl+Z`
+   - 重做：点击"重做"按钮或使用 `Ctrl+Y`
+   - 删除：选中拾取点后按 `Delete` 键
+
+#### 2.4 批处理操作
+
+1. **开始批处理**：
+   - 点击工具栏的"批处理"按钮
+   - 或使用快捷键 `Ctrl+B`
+   - 程序会自动处理文件列表中的所有文件
+
+2. **批处理控制**：
+   - 暂停：点击"暂停"按钮
+   - 继续：点击"继续"按钮
+   - 停止：点击"停止"按钮
+   - 跳过：点击"跳过"按钮跳过当前文件
+
+#### 2.5 保存结果
+
+1. **保存拾取**：
+   - 点击工具栏的"保存"按钮
+   - 或使用快捷键 `Ctrl+S`
+   - 选择保存位置和文件名
+
+2. **导出CSV**：
+   - 从菜单栏选择"文件" -> "导出CSV"
+   - 选择导出位置和文件名
+   - CSV文件包含所有拾取点的信息
+
+### 3. 常用快捷键
+
+- `Ctrl+O`：打开文件
+- `Ctrl+S`：保存拾取
+- `Ctrl+Z`：撤销
+- `Ctrl+Y`：重做
+- `Ctrl+A`：自动拾取
+- `Ctrl+B`：开始批处理
+- `Ctrl+,`：打开设置
+- `F1`：显示快捷键帮助
+
+### 4. 注意事项
+
+1. **文件格式**：
+   - 支持MiniSEED格式的地震波形文件
+   - 确保文件包含正确的头段信息
+
+2. **拾取质量**：
+   - A级：高质量拾取，波形清晰
+   - B级：中等质量，波形可识别
+   - C级：低质量，仅供参考
+
+3. **批处理建议**：
+   - 建议先处理少量文件测试
+   - 检查自动拾取结果
+   - 必要时手动调整
+
+4. **数据备份**：
+   - 定期保存拾取结果
+   - 导出CSV文件备份
+   - 记录处理日志
+
+### 5. 获取帮助
+
+- 查看"帮助"菜单中的"快捷键"和"关于"
+- 检查日志文件：`~/.p_wave_picker/logs/app.log`
+- 参考完整文档：`docs/user_manual.md` 

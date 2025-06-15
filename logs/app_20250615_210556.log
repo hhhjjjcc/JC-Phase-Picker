@@ -1,0 +1,16 @@
+2025-06-15 21:05:56,827 - root - INFO - Font set to: Arial
+2025-06-15 21:06:12,413 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:06:18,570 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:06:22,833 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:06:28,033 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:06:43,958 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:06:45,233 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:07:49,682 - root - INFO - 所有拾取点已成功保存到文件: /Users/hujiachen/Desktop/深地项目/111.csv
+2025-06-15 21:08:12,840 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:08:14,471 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:08:17,584 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:08:23,191 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:08:28,307 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:08:29,235 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:08:30,859 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:08:32,643 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)

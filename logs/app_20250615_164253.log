@@ -1,0 +1,2 @@
+2025-06-15 16:42:53,819 - root - INFO - 已设置中文字体: Microsoft YaHei
+2025-06-15 16:42:53,849 - root - ERROR - 程序运行出错: expected integer but got "YaHei"

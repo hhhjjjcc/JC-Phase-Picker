@@ -1,0 +1,21 @@
+2025-06-15 21:37:53,260 - root - INFO - Font set to: Arial
+2025-06-15 21:38:08,051 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:38:15,488 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:38:17,179 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed to A
+2025-06-15 21:38:17,225 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:38:20,514 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:23,747 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:23,810 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:25,981 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/IC.KMI.evid.21647.mseed to B
+2025-06-15 21:38:26,026 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:27,277 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:38:29,037 - root - WARNING - Failed to update pick quality for pick: 17.48073052464229 in /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed. Pick not found.
+2025-06-15 21:38:29,083 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:38:29,938 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:38:29,999 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:38:36,605 - root - INFO - 所有拾取点已成功保存到文件: /Users/hujiachen/Desktop/深地项目/example_mseed/111.csv
+2025-06-15 21:38:48,354 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:52,034 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:38:52,495 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:38:52,983 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:39:14,500 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)

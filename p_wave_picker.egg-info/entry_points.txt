@@ -1,0 +1,2 @@
+[console_scripts]
+p_wave_picker = main:main

@@ -1,0 +1,9 @@
+2025-06-15 19:29:35,200 - root - INFO - Font set to: Arial
+2025-06-15 19:29:49,321 - root - INFO - plot_trace: Trace data min: -4078.0684379010513, max: 4802.88329480054, shape: (4000,)
+2025-06-15 19:29:49,501 - root - INFO - plot_trace: Trace data min: -4078.0684379010513, max: 4802.88329480054, shape: (4000,)
+2025-06-15 19:29:50,318 - root - INFO - plot_trace: Trace data min: -4869.094675845313, max: 3002.006798098549, shape: (4000,)
+2025-06-15 19:29:50,839 - root - INFO - plot_trace: Trace data min: -1323.8019026621207, max: 2209.838015978964, shape: (4000,)
+2025-06-15 19:29:57,046 - root - INFO - plot_trace: Trace data min: -4869.094675845313, max: 3002.006798098549, shape: (4000,)
+2025-06-15 19:30:49,576 - root - INFO - plot_trace: Trace data min: -4869.094675845313, max: 3002.006798098549, shape: (4000,)
+2025-06-15 19:32:01,068 - root - INFO - plot_trace: Trace data min: -1323.8019026621207, max: 2209.838015978964, shape: (4000,)
+2025-06-15 19:32:47,824 - root - INFO - plot_trace: Trace data min: -4078.0684379010513, max: 4802.88329480054, shape: (4000,)

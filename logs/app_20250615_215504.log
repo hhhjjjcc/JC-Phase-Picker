@@ -1,0 +1,18 @@
+2025-06-15 21:55:04,340 - root - INFO - Font set to: Arial
+2025-06-15 21:55:16,213 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:55:20,431 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:55:21,709 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:55:25,470 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed to B
+2025-06-15 21:55:25,514 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:55:26,691 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:55:28,377 - root - WARNING - Failed to update pick quality for pick: 19.420857710651827 in /Users/hujiachen/Desktop/深地项目/example_mseed/IC.KMI.evid.21647.mseed. Pick not found.
+2025-06-15 21:55:28,424 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:55:29,253 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:55:29,317 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:55:30,643 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:55:32,517 - root - WARNING - Failed to update pick quality for pick: 18.202638314785375 in /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed. Pick not found.
+2025-06-15 21:55:32,561 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:55:34,265 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:55:34,326 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:55:40,964 - root - ERROR - Failed to save picks for /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed: name 'json' is not defined
+2025-06-15 21:55:56,753 - root - ERROR - Failed to save picks for /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed: name 'json' is not defined

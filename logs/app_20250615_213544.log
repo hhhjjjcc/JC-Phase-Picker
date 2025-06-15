@@ -1,0 +1,32 @@
+2025-06-15 21:35:44,901 - root - INFO - Font set to: Arial
+2025-06-15 21:35:57,749 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:35:58,948 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:36:02,564 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:04,772 - root - WARNING - Failed to update pick quality for pick: 19.511096184419713 in /Users/hujiachen/Desktop/深地项目/example_mseed/IC.KMI.evid.21647.mseed. Pick not found.
+2025-06-15 21:36:04,810 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:05,884 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:05,947 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:07,345 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:36:09,080 - root - WARNING - Failed to update pick quality for pick: 17.16489586645469 in /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed. Pick not found.
+2025-06-15 21:36:09,126 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:36:10,049 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:36:10,112 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:36:16,334 - root - INFO - 所有拾取点已成功保存到文件: /Users/hujiachen/Desktop/深地项目/example_mseed/111.csv
+2025-06-15 21:36:52,976 - root - INFO - 所有拾取点已成功保存到文件: /Users/hujiachen/Desktop/深地项目/example_mseed/111.csv
+2025-06-15 21:36:54,866 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:56,237 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:36:58,334 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:36:59,420 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:37:11,925 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:37:13,912 - root - WARNING - Failed to update pick quality for pick: 19.195261526232116 in /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed. Pick not found.
+2025-06-15 21:37:13,956 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:37:16,056 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:37:16,969 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:37:20,013 - root - WARNING - Failed to update pick quality for pick: 19.195261526232116 in /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed. Pick not found.
+2025-06-15 21:37:20,059 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:37:28,985 - root - INFO - 所有拾取点已成功保存到文件: /Users/hujiachen/Desktop/深地项目/example_mseed/111.csv
+2025-06-15 21:37:40,278 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:37:42,846 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed to B
+2025-06-15 21:37:42,892 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:37:44,120 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed to C
+2025-06-15 21:37:44,167 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)

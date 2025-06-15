@@ -1,0 +1,18 @@
+2025-06-15 22:02:56,197 - root - INFO - Font set to: Arial
+2025-06-15 22:03:06,075 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:07,666 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:08,377 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:08,440 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:09,756 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:15,897 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:17,669 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 22:03:18,887 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 22:03:19,864 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 22:03:21,623 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/IC.KMI.evid.21647.mseed to B
+2025-06-15 22:03:21,669 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 22:03:24,458 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 22:03:32,831 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 22:03:32,896 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 22:03:36,073 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed to C
+2025-06-15 22:03:36,118 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 22:03:43,803 - root - INFO - All picks successfully saved to file: /Users/hujiachen/Desktop/深地项目/example_mseed/111.csv

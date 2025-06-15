@@ -1,0 +1,25 @@
+2025-06-15 21:33:42,918 - root - INFO - Font set to: Arial
+2025-06-15 21:33:52,882 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:34:00,142 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:34:01,982 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed to A
+2025-06-15 21:34:02,028 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:34:03,556 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed to C
+2025-06-15 21:34:03,602 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:34:06,152 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:34:07,581 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:34:07,648 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:34:09,090 - root - INFO - Updated pick quality for /Users/hujiachen/Desktop/深地项目/example_mseed/IC.KMI.evid.21647.mseed to B
+2025-06-15 21:34:09,137 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:34:10,558 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:34:12,706 - root - WARNING - Failed to update pick quality for pick: 17.886803656597774 in /Users/hujiachen/Desktop/深地项目/example_mseed/XF.H1090.evid.38307.mseed. Pick not found.
+2025-06-15 21:34:12,751 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:34:13,564 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:34:13,626 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:34:25,547 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:34:25,971 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:34:26,421 - root - INFO - plot_trace: Trace data min: -700.9445003840085, max: 1004.7906582793964, shape: (4000,)
+2025-06-15 21:35:24,488 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:35:26,997 - root - WARNING - Failed to update pick quality for pick: 19.10502305246423 in /Users/hujiachen/Desktop/深地项目/example_mseed/3J.BHPC.evid.17544.mseed. Pick not found.
+2025-06-15 21:35:27,044 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
+2025-06-15 21:35:30,527 - root - INFO - plot_trace: Trace data min: -513.1344674835525, max: 463.00156891195485, shape: (4000,)
+2025-06-15 21:35:31,370 - root - INFO - plot_trace: Trace data min: -4078.0684379010963, max: 4802.883294800529, shape: (4000,)
