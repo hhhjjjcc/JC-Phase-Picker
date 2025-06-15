@@ -22,7 +22,7 @@
     },
     "filters": {
         "enable": true,
-        "type": "带通",
+        "type": "bandpass",
         "freq_min": 1.0,
         "freq_max": 10.0
     }
