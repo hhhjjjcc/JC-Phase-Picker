@@ -1,26 +1,26 @@
 """
-安装脚本
+Installation Script
 """
 
 from setuptools import setup, find_packages
 
-# 读取README文件
+# Read README file
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()
 
-# 读取requirements.txt文件
+# Read requirements.txt file
 with open('requirements.txt', 'r', encoding='utf-8') as f:
     requirements = f.read().splitlines()
 
 setup(
     name="p_wave_picker",
     version="0.1.0",
-    description='P波初至震相拾取系统',
+    description='P-wave First Arrival Phase Picking System',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    author='XXX',
-    author_email='xxx@example.com',
-    url='https://github.com/xxx/p_wave_picker',
+    author='Jiachen Hu',
+    author_email='jiachen.hu@zju.edu.cn',
+    url='https://github.com/hhhjjjcc/JC-Phase-Picker.git',
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
@@ -49,8 +49,8 @@ setup(
     python_requires=">=3.7",
     keywords='seismology, phase picking, P-wave',
     project_urls={
-        'Documentation': 'https://github.com/xxx/p_wave_picker/docs',
-        'Source': 'https://github.com/xxx/p_wave_picker',
-        'Tracker': 'https://github.com/xxx/p_wave_picker/issues',
+        'Documentation': 'https://github.com/hhhjjjcc/JC-Phase-Picker.git/docs',
+        'Source': 'https://github.com/hhhjjjcc/JC-Phase-Picker.git',
+        'Tracker': 'https://github.com/hhhjjjcc/JC-Phase-Picker.git/issues',
     },
 ) 

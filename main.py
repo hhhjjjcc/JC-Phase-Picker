@@ -1,5 +1,5 @@
 """
-主程序
+Main Program
 """
 
 import os
@@ -10,19 +10,19 @@ from gui.main_window import MainWindow
 from config.settings import Settings
 
 def setup_logging():
-    """设置日志"""
-    # 创建日志目录
+    """Setup logging"""
+    # Create log directory
     log_dir = "logs"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
     
-    # 设置日志文件名
+    # Set log filename
     log_file = os.path.join(
         log_dir,
         f"app_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log"
     )
     
-    # 配置日志
+    # Configure logging
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
@@ -33,7 +33,7 @@ def setup_logging():
     )
 
 def check_dependencies():
-    """检查依赖"""
+    """Check dependencies"""
     try:
         import obspy
         import numpy
@@ -41,27 +41,27 @@ def check_dependencies():
         import tkinter
         return True
     except ImportError as e:
-        logging.error(f"缺少必要的依赖: {str(e)}")
+        logging.error(f"Missing required dependencies: {str(e)}")
         return False
 
 def main():
-    """主函数"""
+    """Main function"""
     try:
-        # 设置日志
+        # Setup logging
         setup_logging()
         
-        # 检查依赖
+        # Check dependencies
         if not check_dependencies():
             return
         
-        # 创建主窗口
+        # Create main window
         app = MainWindow()
         
-        # 运行程序
+        # Run program
         app.run()
         
     except Exception as e:
-        logging.error(f"程序运行出错: {str(e)}")
+        logging.error(f"Program error: {str(e)}")
         raise
 
 if __name__ == "__main__":

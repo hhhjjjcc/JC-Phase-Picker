@@ -1,5 +1,5 @@
 """
-文件管理
+File Management
 """
 
 import os
@@ -8,88 +8,88 @@ from obspy import read
 from config.settings import Settings
 
 class FileManager:
-    """文件管理类"""
+    """File Management Class"""
     
     def __init__(self):
-        """初始化文件管理器"""
+        """Initialize File Manager"""
         self.settings = Settings()
         self.files = []
         self.current_file = None
         self.current_trace = None
     
     def load_file(self, file_path):
-        """加载文件"""
+        """Load file"""
         try:
-            # 读取文件
+            # Read file
             st = read(file_path)
             if len(st) > 0:
-                # 保存文件信息
+                # Save file information
                 self.current_file = file_path
                 self.current_trace = st[0]
                 
-                # 预处理
+                # Preprocess
                 if self.settings.get('process', 'preprocess'):
                     self.preprocess_trace()
                 
                 return self.current_trace
             else:
-                raise ValueError("文件为空")
+                raise ValueError("File is empty")
                 
         except Exception as e:
-            logging.error(f"加载文件失败: {str(e)}")
+            logging.error(f"Failed to load file: {str(e)}")
             raise
     
     def scan_directory(self, dir_path):
-        """扫描目录"""
+        """Scan directory"""
         try:
-            # 清空文件列表
+            # Clear file list
             self.files = []
             
-            # 扫描目录
+            # Scan directory
             for root, _, files in os.walk(dir_path):
                 for file in files:
                     if file.endswith('.mseed'):
                         self.files.append(os.path.join(root, file))
             
-            # 更新设置
+            # Update settings
             self.settings.set('paths', 'data_dir', dir_path)
             self.settings.save()
             
             return self.files
             
         except Exception as e:
-            logging.error(f"扫描目录失败: {str(e)}")
+            logging.error(f"Failed to scan directory: {str(e)}")
             raise
     
     def get_files(self):
-        """获取文件列表"""
+        """Get file list"""
         return self.files
     
     def get_current_file(self):
-        """获取当前文件"""
+        """Get current file"""
         return self.current_file
     
     def get_current_trace(self):
-        """获取当前波形"""
+        """Get current waveform"""
         return self.current_trace
     
     def has_files(self):
-        """是否有文件"""
+        """Check if there are files"""
         return len(self.files) > 0
     
     def preprocess_trace(self):
-        """预处理波形"""
+        """Preprocess waveform"""
         if self.current_trace:
             try:
-                # 去趋势
+                # Detrend
                 self.current_trace.detrend('demean')
                 
-                # 重采样
+                # Resample
                 sampling_rate = self.settings.get('process', 'sampling_rate')
                 if sampling_rate:
                     self.current_trace.resample(sampling_rate)
                 
-                # 滤波
+                # Filter
                 filter_type = self.settings.get('filter', 'type')
                 freq_range = self.settings.get('filter', 'freq_range')
                 if filter_type and freq_range:
@@ -101,16 +101,16 @@ class FileManager:
                         self.current_trace.filter('lowpass', freq=freq_range[1])
                 
             except Exception as e:
-                logging.error(f"预处理波形失败: {str(e)}")
+                logging.error(f"Failed to preprocess waveform: {str(e)}")
                 raise
     
     def export_data(self, file_path):
-        """导出数据"""
+        """Export data"""
         try:
-            # 导出波形数据
+            # Export waveform data
             if self.current_trace:
                 self.current_trace.write(file_path, format='MSEED')
             
         except Exception as e:
-            logging.error(f"导出数据失败: {str(e)}")
+            logging.error(f"Failed to export data: {str(e)}")
             raise 
