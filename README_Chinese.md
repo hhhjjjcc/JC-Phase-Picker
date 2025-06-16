@@ -172,3 +172,8 @@ python main.py
 
 - README.md中列出功能已完成开发，但用户手册上有些功能仍待开发，作者正在努力中💪
 - 数据demo可用example_data文件夹
+
+<div style="text-align: center;">
+  <img src="https://github.com/hhhjjjcc/JC-Phase-Picker/blob/main/example.png" width="70%">
+  <p><b>Figure 1: GUI示例交互界面</p>
+</div>
