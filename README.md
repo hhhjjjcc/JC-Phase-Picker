@@ -175,5 +175,5 @@ When MiniSEED files are loaded, waveform data will undergo the following preproc
 - 
 <div style="text-align: center;">
   <img src="https://github.com/hhhjjjcc/JC-Phase-Picker/blob/main/example.png" width="70%">
-  <p><b>Figure: Example GUI Interface</p>
+  <p><b>Figure 1: Example GUI Interface</p>
 </div>
