@@ -17,7 +17,7 @@ JC-Phase-Picker is a seismic data processing tool primarily designed to pick P-w
 ## Installation Guide
 1. Clone the project:
 ```bash
-git clone [Project Address]
+git clone https://github.com/hhhjjjcc/JC-Phase-Picker.git
 cd p-wave-picker
 ```
 
