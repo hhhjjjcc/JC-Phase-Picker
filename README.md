@@ -172,7 +172,7 @@ When MiniSEED files are loaded, waveform data will undergo the following preproc
 
 - Features listed in README.md have been developed, but some functionalities in the user manual are still under development. The author is working hard to complete them 💪
 - Demo data is available in the `example_data` folder
-- 
+
 <div style="text-align: center;">
   <img src="https://github.com/hhhjjjcc/JC-Phase-Picker/blob/main/example.png" width="70%">
   <p><b>Figure 1: Example GUI Interface</p>
