@@ -18,7 +18,7 @@ JC-Phase-Picker是一款地震数据处理工具，主要功能是从MiniSEED格
 1. 克隆项目：
 ```bash
 git clone https://github.com/hhhjjjcc/JC-Phase-Picker.git
-cd p-wave-picker
+cd path/p-wave-pickerp-wave-picker
 ```
 
 2. 创建并激活环境：
